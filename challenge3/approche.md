@@ -1,6 +1,6 @@
 ﻿Pour l'exercice 3 j'ai eu une approche "brut force" c’est-à-dire essayer toutes les combinaisons possibles.
 
-Mais 25000 valeurs cela veut dire beaucoup trop de boucles (25000*24999*24998 = 15*10^12)
+Mais 25000 valeurs cela veut dire beaucoup trop de boucles (25000x24999x24998 = 15x10^12)
 
 Après observation des valeurs je me rends compte que pas mal de combinaisons ont une valeur inférieure à 987654321, ce qui permet d'abandonner la boucle car la somme sera toujours inférieure à 987654321.
 
